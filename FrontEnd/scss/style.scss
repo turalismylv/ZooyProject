@@ -2,6 +2,9 @@
 @use './Pages/home';
 @use './Pages/blog';
 @use './Pages/about';
+@use './Pages/login';
+@use './Pages/register';
+@use './Pages/contact';
 
 *{
     margin: 0;
