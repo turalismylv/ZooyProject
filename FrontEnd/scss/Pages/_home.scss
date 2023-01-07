@@ -170,12 +170,10 @@
     }
 
     .slick-prev{
-    background-color: black;
   
     }
 
     .slick-next{
-        background-color: black;
      
     }
 }
@@ -294,7 +292,7 @@
     background: #fcb818;
     margin-bottom: 110px;
     text-align: left;
-    margin-top: -440px;
+    margin-top: -200px;
     padding-top: 250px;
 }
 
@@ -751,4 +749,58 @@ footer{
  }
 
   
+ @media screen and (max-width: 1570px) {
+    .find-section{
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+  
+}
+
+@media screen and (max-width: 1190px) {
  
+  .foto-find{
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+ 
+    .foto-find{
+      width: 300px;
+    }
+  }
+  
+
+@media screen and (max-width: 864px) {
+ 
+    .find{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .find-div{
+            align-items: center;
+            width: 100%;
+            
+
+            .find-h2{
+                text-align: center;
+            }
+        } 
+    }
+  }
+
+.best-seller-card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 5%;
+}
+
+
+ol,ul{
+    padding-left: 0;
+    padding-right: 0;
+}

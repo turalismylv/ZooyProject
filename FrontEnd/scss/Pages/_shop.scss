@@ -276,6 +276,17 @@ $box-shadow:0px 0px 9px 0px $box-shadow-color;
 
 }
 
+
+
+.productt-name{
+    color: black;
+    transition: 0.3s all linear;
+}
+
+.productt-name:hover{
+    color:#fcb818 ;
+}
+
 .tags{
     ul{
         padding: 0;
